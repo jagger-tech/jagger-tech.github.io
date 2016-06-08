@@ -2,7 +2,6 @@
   margin:0 0;
   padding: 0 0;
   font-family: 'Droid Sans', sans-serif;
-  color: #fff;
 }
 
 body{
@@ -17,11 +16,28 @@ body{
 
 #content{
   text-align: center;
+  color: #fff;
 }
 
-#content small{
+#content .text{
+  font-size: 20px;
+}
+
+#content .idea{
   display: block;
+  font-size: 14px;
   margin: 20px 0 10px 0;
+}
+
+#content .idea u{
+  cursor: pointer;
+}
+
+#content form{
+  display: none;
+  width: 15%;
+  margin: 20px auto 0 auto;
+  color: #000;
 }
 
 #centered {
@@ -32,12 +48,4 @@ body{
   margin: 0 auto;
   background: #fff;
   border: 4px solid #666;
-}
-
-#content .text{
-  font-size: 20px;
-}
-
-#content .contact{
-  font-size: 12px;
 }
